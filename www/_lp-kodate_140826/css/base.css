@@ -1,0 +1,433 @@
+@charset "utf-8";
+/* ********************************************************************-
+Date:2014-01-14
+CSS Document:kaigochintai.com 介護賃貸併用住宅LP_レイアウトスタイル
+
+ - ******************************************************************** */
+
+/* #navi
+ */
+#navi {
+	background:url(../image/common/shadow.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding-bottom:10px;
+	width:100%;
+	top:0px;
+	position:fixed;
+	z-index:10;
+}
+#navi div.bg {
+	background-color:#FFFFFF;
+	padding:20px 0;
+}
+#navi div.h-wrap {
+	width:1000px;
+	margin:0 auto;
+}
+#navi div.h-wrap div.hgroup {
+	float:left;
+}
+#navi div.h-wrap div.hgroup h2 {
+	float:left;
+}
+#navi div.h-wrap div.hgroup h1 {
+	float:left;
+	font-size:11px;
+	margin-top:8px;
+	margin-left:10px;
+}
+#navi div.h-wrap div.contact {
+	float:right;
+}
+#navi div.h-wrap div.contact p.tel {
+	float:left;
+	margin-right:10px;
+	/*margin-top:10px;*/
+}
+#navi div.h-wrap div.contact p.form {
+	float:left;
+	margin-top:5px;
+}
+
+
+/* #wrapper
+ */
+#wrapper {
+	padding-top:100px;
+	background:url(../image/common/bg_pastel.jpg);
+}
+
+/* #main
+ */
+#content {
+	width:790px;
+	margin:0 auto;
+}
+
+/* #headline */
+#headline {
+	padding-bottom:25px;
+	background:url(../image/headline/image.png);
+	background-repeat:no-repeat;
+	background-position:top right;
+	position:relative;
+}
+#headline div.wbs {
+	position: absolute;
+	text-align:center;
+	left: 520px;
+	top: 200px;
+	width: 281px;
+	height: 144px;
+	background-image:url(../image/headline/wbs_bg.png);
+	background-repeat:no-repeat;
+}
+#headline div.wbs p.btn {
+	margin-top:100px;
+}
+#headline div.text {
+	margin:40px 20px 0 20px;
+}
+#headline div.text p.explain {
+	line-height:1.2em;
+}
+#headline div.text p.note {
+	font-size:12px;
+	margin-top:10px;
+	line-height:1.2em;
+}
+#headline p.about {
+	text-align:center;
+	margin-top:30px;
+}
+#headline p.contact-btn {
+	margin-top:30px;
+}
+
+/* #about */
+#about {
+	padding:25px 0;
+	position:relative;
+}
+#about div.col {
+	margin-top:20px;
+	padding-bottom:20px;
+}
+#about div.col h3 {
+	text-align:center;
+}
+#about div.col div.s-col1 {
+	margin-top:20px;
+}
+#about div.col div.s-col1 p {
+	line-height:1.4em;
+}
+#about div.col div.s-col1 p.image {
+	float:right;
+}
+#about div.col div.s-col1 p span {
+	background:#FF7BAC;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin:0 5px;
+}
+#about div.col div.s-col1 p sup {
+	font-size:9px;
+}
+#about div.col div.s-col1 p.note {
+	font-size:11px;
+	line-height:1.2em;
+}
+
+#about div.col div.s-col2 {
+	margin-top:20px;
+}
+#about div.col div.s-col2 div.text {
+	float:right;
+	width:450px;
+}
+#about div.col div.s-col2 div.text p {
+	line-height:1.4em;
+}
+#about div.col div.s-col2 div.text p span {
+	background:#FF7BAC;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin:0 5px;
+}
+#about div.col div.s-col2 div.text p sup {
+	font-size:9px;
+}
+#about div.col div.s-col2 div.text p.note {
+	font-size:11px;
+	line-height:1.2em;
+}
+#about div.col div.s-col2 p.image {
+	float:left;
+}
+#about div.col table.compare {
+	margin-top:10px;
+	width:100%;
+	border:solid 2px #7AC943;
+	border-collapse:collapse;
+	background:#FFFFFF;
+}
+#about div.col table.compare tr th {
+	border:solid 2px #7AC943;
+	padding:10px 0;
+}
+#about div.col table.compare tr td {
+	border:solid 2px #7AC943;
+	padding:10px 5px;
+	/*font-size:13px;*/
+	line-height:1.4em;
+}
+#about div.col table.compare tr td span.merit {
+	background:#FF7BAC;
+	font-weight:bold;
+	color:#FFFFFF;
+	font-size:inherit;
+}
+#about div.col table.compare tr td span.demerit {
+	background:#999999;
+	font-weight:bold;
+	color:#FFFFFF;
+	font-size:inherit;
+}
+
+
+/* #simulation */
+#simulation {
+	padding:25px 0;
+	position:relative;
+}
+#simulation div.col {
+	margin-top:20px;
+	/*padding-bottom:20px;*/
+}
+#simulation div.col h3 {
+	text-align:center;
+}
+#simulation div.col div.s-colWhy {
+	margin-top:5px;
+}
+#simulation div.col div.s-colWhy div.text {
+	float: left;
+	margin-top: 20px;
+	width: 500px;
+}
+#simulation div.col div.s-colWhy div.text p {
+	line-height:1.4em;
+}
+#simulation div.col div.s-colWhy div.text p span {
+	background:#7AC943;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin:0 5px;
+}
+#simulation div.col div.s-colWhy p.image {
+	float:right;
+	margin-right:20px;
+}
+#simulation div.col div.s-colWhy p.merit {
+	clear:both;
+	padding-top:10px;
+	text-align:center;
+}
+#simulation div.col div.s-colConpare {
+	background:url(../image/simulation/comment_bg.png);
+	background-repeat:no-repeat;
+	width:790px;
+	height:242px;
+	position:relative;
+}
+#simulation div.col div.s-colConpare p {
+	line-height:1.4em;
+}
+#simulation div.col div.s-colConpare p.text {
+	position: absolute;
+	display: block;
+	left: 196px;
+	top: 22px;
+	width: 566px;
+}
+#simulation div.col div.s-colConpare p.comment1 {
+	position: absolute;
+	display: block;
+	left: 197px;
+	top: 111px;
+	width: 567px;
+}
+#simulation div.col div.s-colConpare p.comment2 {
+	position: absolute;
+	display: block;
+	left: 199px;
+	top: 170px;
+	width: 564px;
+}
+#simulation div.col div.s-colCase {
+	background:url(../image/simulation/case_bg.png);
+	background-repeat:no-repeat;
+	margin:20px auto 0 auto;
+	width:785px;
+	height:298px;
+	position:relative;
+}
+#simulation div.col div.s-colCase p.text {
+	position: absolute;
+	display: block;
+	left: 25px;
+	top: 56px;
+	width: 737px;
+	font-size: 13px;
+	line-height: 1.4em;
+}
+#simulation div.col div.s-colCase p.btn {
+	position: absolute;
+	display: block;
+	left: 203px;
+	top: 242px;
+}
+#simulation p.contact-btn {
+	margin-top:30px;
+}
+
+
+/* #merit */
+#merit {
+	padding:25px 0;
+	position:relative;
+}
+#merit div.col {
+	margin-top:20px;
+	/*padding-bottom:20px;*/
+}
+#merit div.col h3 {
+	text-align:center;
+}
+#merit p.contact-btn {
+	margin-top:30px;
+}
+#merit div.col div.s-colCase {
+	float:left;
+	background:url(../image/merit/case_bg.png);
+	background-repeat:no-repeat;
+	margin-top:5px;
+	width:785px;
+	height:217px;
+	position:relative;
+}
+#merit div.col div.s-colCase p.text {
+	position: absolute;
+	display: block;
+	left: 401px;
+	top: 19px;
+	width: 369px;
+	font-size: 13px;
+	line-height: 1.4em;
+	height: 140px;
+}
+#merit div.col div.s-colCase p.btn {
+	position: absolute;
+	display: block;
+	left: 405px;
+	top: 163px;
+}
+#merit div.col div.s-colWbs {
+	float:left;
+	background:url(../image/merit/wbs_bg.png);
+	background-repeat:no-repeat;
+	margin-top:5px;
+	width:395px;
+	height:203px;
+	position:relative;
+}
+#merit div.col div.s-colWbs p.title {
+	position: absolute;
+	display: block;
+	left: 173px;
+	top: 19px;
+	width: 207px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.4em;
+	height: 41px;
+}
+#merit div.col div.s-colWbs p.text {
+	position: absolute;
+	display: block;
+	left: 173px;
+	top: 69px;
+	width: 207px;
+	font-size: 13px;
+	line-height: 1.4em;
+	height: 61px;
+}
+#merit div.col div.s-colWbs p.btn {
+	position: absolute;
+	display: block;
+	left: 15px;
+	top: 151px;
+}
+#merit div.col div.s-colNetwork {
+	float:left;
+	background:url(../image/merit/network_bg.png);
+	background-repeat:no-repeat;
+	margin-top:5px;
+	width:395px;
+	height:203px;
+	position:relative;
+}
+#merit div.col div.s-colNetwork p.title {
+	position: absolute;
+	display: block;
+	left: 173px;
+	top: 19px;
+	width: 207px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.4em;
+	height: 21px;
+}
+#merit div.col div.s-colNetwork p.text {
+	position: absolute;
+	display: block;
+	left: 175px;
+	top: 50px;
+	width: 205px;
+	font-size: 13px;
+	line-height: 1.4em;
+	height: 78px;
+}
+#merit div.col div.s-colNetwork p.btn {
+	position: absolute;
+	display: block;
+	left: 15px;
+	top: 151px;
+}
+
+
+/* #footer */
+#footer {
+	margin-top:30px;
+	padding-top:20px;
+	border-top:dotted #CCCCCC 1px;
+}
+#footer p.company-info {
+	margin-top:10px;
+	font-size:0.8em;
+	line-height:1.4em;
+}
+#footer ul.link {
+	margin-top:30px;
+	list-style:none;
+}
+#footer ul.link li {
+	float:left;
+}
+#footer p.copy {
+	padding:20px;
+	font-size:0.8em;
+	text-align:center;
+}

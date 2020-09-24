@@ -1,0 +1,20 @@
+﻿#error_print
+php_flag display_errors "On"
+
+#301
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^kaigochintai\.com
+RewriteRule (.*) http://www.kaigochintai.com/$1 [R=301,L]
+
+#use_PHP
+#AddType application/x-httpd-php .htm .html
+
+#IP
+#order deny,allow
+#deny from all
+#allow from localhost           #localhost
+#allow from 61.194.110.5        #泉ガーデン
+
+#環境変数
+#localhost,stage,production
+SetEnv WEB_APP_ENV 'localhost'

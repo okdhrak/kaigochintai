@@ -1,0 +1,12 @@
+@charset "Shift_JIS";
+/* ********************************************************************-
+Date:2011-11-18
+CSS Document:kaigochintai.com LPページIE6用スタイルシート
+
+ - ******************************************************************** */
+
+/* iepngfix */
+img, div.main-img {
+	/*behavior: url("http://localhost/pm/premiumcube/yokohama/lib/iepngfix/iepngfix.htc");*/
+	behavior: url("http://www.sfit.co.jp/pm/premiumcube/yokohama/lib/iepngfix/iepngfix.htc");
+}

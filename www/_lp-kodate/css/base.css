@@ -1,0 +1,249 @@
+@charset "Shift_JIS";
+/* ********************************************************************-
+Date:2013-03-20
+CSS Document:kaigochintai.com 介護賃貸併用住宅ランディング レイアウトスタイル
+
+ - ******************************************************************** */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+/* #top_navi
+ */
+#top_navi {
+	background:#00AAE3;
+	height:90px;
+	width:100%;
+	top:0px;
+	position:fixed;
+	z-index:100;
+}
+#top_navi ul {
+	list-style:none;
+	width:1128px;
+	margin:0 auto;
+	padding:15px 0 15px 0;
+}
+#top_navi ul li {
+	float:left;
+	border-right:dotted #FFFFFF 1px;
+	/*margin-left:-1px;*/
+}
+
+/* #wrapper
+ */
+#wrapper {
+	width:1125px;
+	margin:0 auto;
+	padding:20px 25px;
+	border-left:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+}
+
+/* #main
+ */
+#main {
+	float:left;
+	width:900px;
+}
+
+/* .headline */
+#main > div.headline div.header h2 {
+	float:left;
+	margin-top:7px;
+}
+#main > div.headline div.header h1 {
+	float:left;
+	margin-top:11px;
+	margin-left:20px;
+	line-height:1.2em;
+}
+#main > div.headline div.header p.tel {
+	float:right;
+}
+
+#main > div.headline div.main {
+	height:350px;
+	width:900px;
+	padding-top:50px;
+	background:url(../image/headline/main_bg.png);
+	background-repeat:no-repeat;
+}
+#main > div.headline div.main p {
+	text-align:center;
+}
+#main > div.headline div.main h2 {
+	margin:50px 0 0 30px;
+}
+
+#main > div.headline div.bottom {
+	height:110px;
+	width:900px;
+	padding-top:55px;
+	background:url(../image/headline/text_bg.png);
+	background-repeat:no-repeat;
+}
+#main > div.headline div.bottom p {
+	text-align:center;
+}
+
+/* .simulation */
+#main > div.simulation {
+	margin-top:30px;
+	padding-top:30px;
+	border-top:solid #CCCCCC 15px;
+}
+#main > div.simulation div.column {
+	position:relative;
+	margin-top:30px;
+}
+#main > div.simulation div.column-scd {
+	position:relative;
+	margin-top:30px;
+	padding-top:30px;
+	border-top:dotted #CCCCCC 1px;
+}
+#main > div.simulation div.column-scd div.plan {
+	border:solid #CCCCCC 10px;
+	margin-top:30px;
+	padding-bottom:20px;
+}
+#main > div.simulation div.column-scd div.outline {
+	background:#CCCCCC;
+	margin-top:20px;
+	padding:15px 30px 20px 30px;
+}
+#main > div.simulation div.column-scd div.outline h5 {
+	font-weight:bold;
+}
+
+#main > div.simulation p.btn {
+	text-align:center;
+	margin-top:50px;
+}
+
+/* .about */
+#main > div.about {
+	margin-top:30px;
+	padding-top:30px;
+	border-top:solid #CCCCCC 15px;
+}
+#main > div.about div.column {
+	position:relative;
+	margin-top:30px;
+}
+#main > div.about div.column-scd {
+	position:relative;
+	margin-top:30px;
+	padding-top:30px;
+	border-top:dotted #CCCCCC 1px;
+}
+
+#main > div.about div.column div.about {
+	margin-top:50px;
+	margin-left:30px;
+}
+#main > div.about div.column div.about p.image {
+	float:right;
+	margin:0 0 20px 40px;
+	padding-top:20px;
+}
+#main > div.about div.column-scd div.flow {
+	margin-top:50px;
+}
+#main > div.about div.column-scd div.flow p.image {
+	float:left;
+	margin:0 40px 20px 20px;
+	padding-top:20px;
+}
+
+#main > div.about div.s-column {
+	position:relative;
+	margin-top:30px;
+}
+#main > div.about div.s-column div.graph {
+	width:880px;
+	height:450px;
+	margin-top:20px;
+	padding-top:20px;
+	padding-left:20px;
+	background:url(../image/about/koureishakai-bg.png);
+	background-repeat:no-repeat;
+}
+
+/* .merit */
+#main > div.merit {
+	margin-top:30px;
+	padding-top:30px;
+	border-top:solid #CCCCCC 15px;
+}
+#main > div.merit div.column {
+	position:relative;
+	margin-top:30px;
+}
+
+#main > div.merit div.column ul.merit {
+	width:750px; margin:30px auto 0 auto; padding:30px 50px; list-style:none;
+	background-image:url(../image/merit/col_bg_top.png), url(../image/merit/col_bg_bottom.png), url(../image/merit/col_bg_middle.png); background-repeat:no-repeat, no-repeat, repeat-y; background-position:top, bottom, 0 20px;
+}
+#main > div.merit div.column ul.merit li {
+	float:left;
+	
+	width:200px;
+	/*background:#CCC;*/
+}
+#main > div.merit div.column ul.merit li p.image {
+	border:solid #CCCCCC 1px;
+	margin:-1px;
+	margin-top:15px !important;
+}
+
+#main > div.merit p.btn {
+	text-align:center;
+	margin-top:50px;
+}
+
+/* .footer */
+#main > div.footer {
+	margin-top:30px;
+	padding-top:20px;
+	border-top:dotted #CCCCCC 1px;
+}
+#main > div.footer p.company-info {
+	margin-top:10px;
+	font-size:0.8em;
+	line-height:1.4em;
+}
+#main > div.footer ul.link {
+	margin-top:30px;
+	list-style:none;
+}
+#main > div.footer ul.link li {
+	float:left;
+}
+#main > div.footer p.copy {
+	margin-top:10px;
+	font-size:0.8em;
+}
+
+
+
+/* #side
+ */
+#side {
+	float:right;
+	width:200px;
+	margin-top:110px;
+}
+#side div.wrap {
+	position:fixed;
+}
+#side div.wrap div.contact {
+	margin-top:10px;
+	position:relative;
+	height:220px;
+	width:200px;
+	background:url(../image/side/contact_bg.png); background-repeat:no-repeat;
+}

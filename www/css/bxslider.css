@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* ********************************************************************-
+Date:2013-01-31
+CSS Document:kaigochintai.com トップページスライドのレイアウト
+
+ - ******************************************************************** */
+
+
+ul#slider > li {
+	width: 1000px;
+	display:block;
+}
+
+#content div.contIndex div.bx-wrapper {
+	width: 100% !important;
+	overflow: hidden;
+	position: relative !important;
+}
+#content div.contIndex div.bx-wrapper div.bx-window {
+	width: 1000px !important;
+	margin: 0 auto !important;
+	overflow: visible !important;
+	
+	position:relative;
+}
+
+/* PREV,NEXTボタン */
+p.slidePrev, p.slideNext {
+    position: absolute;
+    text-decoration: none !important;
+    color: #ffffff !important;
+	text-shadow: 1px 1px 2px #333333;
+	font-size:36px;
+}
+p.slidePrev {
+    left: -30px;
+    top: 40%;
+}
+p.slideNext {
+    right: -30px;
+    top: 40%;
+}
+
+/* ページャー */
+#content div.contIndex div.bx-pager {
+	margin-top:80px;
+	background:#1C1C1C;
+}
+#content div.contIndex div.bx-pager ul#pager-menu {
+	width:960px;
+	margin:0 auto;
+	list-style:none;
+	border-left:solid 1px #FFFFFF;
+}
+#content div.contIndex div.bx-pager ul#pager-menu li {
+	float:left;
+	position:relative;
+	/*width:240px;*/
+	width:192px;
+	border-right:solid 1px #FFFFFF;
+	/*margin:-1px;*/
+	margin-left:-1px;
+	cursor:pointer;
+}
+#content div.contIndex div.bx-pager ul#pager-menu li p {
+	padding:50px 0 20px 0;
+	text-align:center;
+}
+
+#content div.contIndex div.bx-pager ul#pager-menu li a {
+	position:absolute;
+	/*left:11px;*/
+	left:0;
+	bottom:60px;
+	display:block;
+	text-align:center;
+	/*width:218px;*/
+	width:192px;
+	min-height:72px;
+	padding:10px 0;
+	
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+#content div.contIndex div.bx-pager ul#pager-menu li:hover a {
+	padding:15px 0;
+}
+#content div.contIndex div.bx-pager ul#pager-menu li a.pager-active {
+	padding:15px 0;
+}
+
+#content div.contIndex div.bx-pager ul#pager-menu li a.pager-1 {
+	background:#00AAE3;
+}
+#content div.contIndex div.bx-pager ul#pager-menu li a.pager-2 {
+	background:#E38400;
+}
+#content div.contIndex div.bx-pager ul#pager-menu li a.pager-3 {
+	background:#75B32E;
+}
+#content div.contIndex div.bx-pager ul#pager-menu li a.pager-4 {
+	background:#963F00;
+}
+#content div.contIndex div.bx-pager ul#pager-menu li a.pager-5 {
+	background:#F0403B;
+}
+
+#content div.contIndex div.bx-pager ul#pager-menu li span {
+	position:absolute;
+	top:23px;
+	left:85px;
+}
+

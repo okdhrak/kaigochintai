@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* ********************************************************************-
+Date:2015-03-04
+CSS Document:kaigochintai.com アパート併用LP_レイアウトスタイル
+
+ - ******************************************************************** */
+
+header {
+	background: #FFFFFF;
+	width: 100%;
+	box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+	position: relative;
+	z-index: 10;
+}
+header .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+header .content .logo {
+	position: absolute;
+	top: 21px;
+}
+header .content h1 {
+	position: absolute;
+	left: 156px;
+	top: 22px;
+	font-size: 0.65em;
+	line-height: 1.4em;
+}
+header .content .contact {
+	float:right;
+}
+header .content .tel {
+	float:right;
+	margin: 15px 10px 0 0;
+}
+
+/* #headline
+ */
+#headline {
+	background: url(../image/headline/bg.png) center no-repeat;
+	height: 650px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#headline .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+#headline .content h2 {
+	padding-top: 40px;
+	position:relative;
+	z-index:1 !important;
+}
+#headline .content .mv {
+	background: url(../image/headline/mv.png) no-repeat;
+	position: absolute;
+	width: 606px;
+	height: 469px;
+	left: 470px;
+	top: 0px;
+	z-index:0 !important;
+}
+#headline .content .mv .btn {
+	position: absolute;
+	left: 50px;
+	top: 251px;
+}
+#headline .content .contact {
+	position: absolute;
+	left: 527px;
+	top: 480px;
+}
+
+/* .btn-link
+ */
+div.btn-link {
+	text-align: center;
+	
+	
+	background: #FFFFFF;
+	position:relative;
+	
+}
+
+div.btn-link p {
+	top: -50px;
+	position:relative;
+}
+
+
+/* #about
+ */
+#about {
+	background: #EFEFEF;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	/*padding-bottom: 50px;*/
+}
+#about h2 {
+	text-align: center;
+	background: url(../image/common/title_bg.png) center no-repeat;
+	height: 107px;
+	margin-bottom: 50px;
+}
+#about h2 img {
+	padding-top: 25px !important;
+}
+#about .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+#about .content .column {
+	background: #FFFFFF;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	position: relative;
+}
+#about .content .column h3 {
+	text-align: center;
+	margin-bottom:30px;
+}
+#about .content .column h3 img {
+	margin-top: -25px;
+}
+#about .content .column .imgr {
+	float: right;
+	margin: 0 30px 20px 40px;
+}
+#about .content .column div.text p {
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 1.06em;
+	line-height: 1.7em;
+}
+#about .content .column div.text p span {
+	color: #CA005A;
+	font-size: inherit;
+	font-weight: bold;
+}
+#about .content .column div.text p sup {
+	font-size: 0.7em;
+}
+
+#about .content .column .imgl {
+	float: left;
+	margin: 0 40px 20px 30px;
+}
+#about .content .column .imgc {
+	text-align:center;
+}
+#about .content .column .btn {
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+/* #merit
+ */
+#merit {
+	background: #EFEFEF;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	/*padding-bottom: 50px;*/
+}
+#merit h2 {
+	text-align: center;
+	background: url(../image/common/title_bg.png) center no-repeat;
+	height: 107px;
+	margin-bottom: 50px;
+}
+#merit h2 img {
+	padding-top: 25px !important;
+}
+#merit .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+#merit .content .column {
+	background: #FFFFFF;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	position: relative;
+}
+#merit .content .column h3 {
+	text-align: center;
+	margin-bottom:30px;
+}
+#merit .content .column h3 img {
+	margin-top: -25px;
+}
+#merit .content .column .imgc {
+	text-align: center;
+}
+#merit .content .column .imgl {
+	float: left;
+	margin: 0 30px 0 20px;
+}
+#merit .content .column div.text p {
+	margin-left: 20px;
+	font-size: 1.06em;
+	line-height: 1.7em;
+}
+#merit .content .small {
+	padding-top: 20px;
+}
+
+#merit .content ul.heyagime {
+	margin-left:30px;
+}
+#merit .content ul.heyagime li {
+	float: left;
+	border: solid #CCCCCC 1px;
+	border-radius: 3px;
+	padding-top:20px;
+}
+#merit .content ul.heyagime li + li {
+	float: left;
+	margin-left:10px;
+}
+#merit .content ul.heyagime li p {
+	width: 260px;
+	line-height:1.6em;
+	margin:20px 0 0 20px;
+	min-height:175px;
+}
+
+/* footer
+ */
+footer {
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 980px;
+}
+footer p.company-info {
+	margin-top: 10px;
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+footer ul.link {
+	margin-top: 30px;
+	list-style: none;
+}
+footer ul.link li {
+	float: left;
+}
+footer ul.link li a {
+	float: left;
+	color: #FFA500;
+}
+footer p.copy {
+	padding: 30px 0;
+	font-size: 0.8em;
+}

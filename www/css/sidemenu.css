@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* ********************************************************************-
+Date:2013-02-09
+CSS Document:kaigochintai.com サイドメニュー用スタイル
+
+ - ******************************************************************** */
+
+div.sidemenu div.frame {
+	padding:5px 0 5px 5px;
+	background:url(../image/common/sidemenu/bg_dot.png);
+}
+div.sidemenu div.frame ul {
+	list-style:none;
+	padding:3px;
+	width:169px;
+	background:#FFFFFF;
+}
+
+div.sidemenu div.frame p.to-top a {
+	padding:3px;
+	width:169px;
+	background:#FFFFFF;
+	display:block;
+	text-indent:-9999px;
+	
+	background-image:url(../image/common/sidemenu/to_top.png);
+	height:40px;
+}
+div.sidemenu div.frame p.to-top a {background-position:0px 0px;}
+div.sidemenu div.frame p.to-top a:hover {background-position:-169px 0px;}
+
+
+div.sidemenu ul li a.h80 {
+	height:80px;
+}
+div.sidemenu ul li a.h40 {
+	height:40px;
+}
+
+
+
+div.sidemenu div.frame.kaichin ul li a {
+	display:block;
+	text-indent:-9999px;
+	background-image:url(../image/common/sidemenu/kaichin.png);
+	background-repeat:no-repeat;
+}
+div.sidemenu div.frame.kaichin ul li a.line-solid {
+	margin-bottom:-1px;
+	border-bottom:solid 1px #CCCCCC;
+}
+div.sidemenu div.frame.kaichin ul li a.line-doted {
+	margin-bottom:-1px;
+	border-bottom:dotted 1px #CCCCCC;
+}
+div.sidemenu div.frame.kaichin ul li:last-child a {
+	border-bottom: none !important;
+}
+div.sidemenu div.frame.kaichin ul li a.menu1 {background-position:0px 0px;}
+div.sidemenu div.frame.kaichin ul li a.menu1:hover {background-position:-169px 0px;}
+div.sidemenu div.frame.kaichin ul li a.menu1.active {background-position:-169px 0px !important;}
+div.sidemenu div.frame.kaichin ul li a.menu2 {background-position:0px -80px;}
+div.sidemenu div.frame.kaichin ul li a.menu2:hover {background-position:-169px -80px;}
+div.sidemenu div.frame.kaichin ul li a.menu2.active {background-position:-169px -80px !important;}
+div.sidemenu div.frame.kaichin ul li a.menu3 {background-position:0px -160px;}
+div.sidemenu div.frame.kaichin ul li a.menu3:hover {background-position:-169px -160px;}
+div.sidemenu div.frame.kaichin ul li a.menu3.active {background-position:-169px -160px !important;}
+div.sidemenu div.frame.kaichin ul li a.menu4 {background-position:0px -240px;}
+div.sidemenu div.frame.kaichin ul li a.menu4:hover {background-position:-169px -240px;}
+div.sidemenu div.frame.kaichin ul li a.menu4.active {background-position:-169px -240px !important;}
+
+
+
+
+div.sidemenu div.frame.service ul li a {
+	display:block;
+	text-indent:-9999px;
+	background-image:url(../image/common/sidemenu/service.png);
+	background-repeat:no-repeat;
+}
+div.sidemenu div.frame.service ul li a.line-solid {
+	margin-bottom:-1px;
+	border-bottom:solid 1px #CCCCCC;
+}
+div.sidemenu div.frame.service ul li a.line-doted {
+	margin-bottom:-1px;
+	border-bottom:dotted 1px #CCCCCC;
+}
+div.sidemenu div.frame.service ul li:last-child a {
+	border-bottom: none !important;
+}
+div.sidemenu div.frame.service ul li a.menu1 {background-position:0px 0px;}
+div.sidemenu div.frame.service ul li a.menu1:hover {background-position:-169px 0px;}
+div.sidemenu div.frame.service ul li a.menu1.active {background-position:-169px 0px !important;}
+div.sidemenu div.frame.service ul li a.menu2 {background-position:0px -80px;}
+div.sidemenu div.frame.service ul li a.menu2:hover {background-position:-169px -80px;}
+div.sidemenu div.frame.service ul li a.menu2.active {background-position:-169px -80px !important;}
+div.sidemenu div.frame.service ul li a.menu3 {background-position:0px -160px;}
+div.sidemenu div.frame.service ul li a.menu3:hover {background-position:-169px -160px;}
+div.sidemenu div.frame.service ul li a.menu3.active {background-position:-169px -160px !important;}
+div.sidemenu div.frame.service ul li a.menu4 {background-position:0px -200px;}
+div.sidemenu div.frame.service ul li a.menu4:hover {background-position:-169px -200px;}
+div.sidemenu div.frame.service ul li a.menu4.active {background-position:-169px -200px !important;}
+div.sidemenu div.frame.service ul li a.menu5 {background-position:0px -280px;}
+div.sidemenu div.frame.service ul li a.menu5:hover {background-position:-169px -280px;}
+div.sidemenu div.frame.service ul li a.menu5.active {background-position:-169px -280px !important;}
+
+div.sidemenu div.frame.service ul li a.menu6 {background-position:0px -320px;}
+div.sidemenu div.frame.service ul li a.menu6:hover {background-position:-169px -320px;}
+div.sidemenu div.frame.service ul li a.menu6.active {background-position:-169px -320px !important;}
+div.sidemenu div.frame.service ul li a.menu7 {background-position:0px -400px;}
+div.sidemenu div.frame.service ul li a.menu7:hover {background-position:-169px -400px;}
+div.sidemenu div.frame.service ul li a.menu7.active {background-position:-169px -400px !important;}
+div.sidemenu div.frame.service ul li a.menu8 {background-position:0px -440px;}
+div.sidemenu div.frame.service ul li a.menu8:hover {background-position:-169px -440px;}
+div.sidemenu div.frame.service ul li a.menu8.active {background-position:-169px -440px !important;}
+div.sidemenu div.frame.service ul li a.menu9 {background-position:0px -520px;}
+div.sidemenu div.frame.service ul li a.menu9:hover {background-position:-169px -520px;}
+div.sidemenu div.frame.service ul li a.menu9.active {background-position:-169px -520px !important;}
+div.sidemenu div.frame.service ul li a.menu10 {background-position:0px -560px;}
+div.sidemenu div.frame.service ul li a.menu10:hover {background-position:-169px -560px;}
+div.sidemenu div.frame.service ul li a.menu10.active {background-position:-169px -560px !important;}
+
+div.sidemenu div.frame.service ul li a.menu11 {background-position:0px -640px;}
+div.sidemenu div.frame.service ul li a.menu11:hover {background-position:-169px -640px;}
+div.sidemenu div.frame.service ul li a.menu11.active {background-position:-169px -640px !important;}
+div.sidemenu div.frame.service ul li a.menu12 {background-position:0px -720px;}
+div.sidemenu div.frame.service ul li a.menu12:hover {background-position:-169px -720px;}
+div.sidemenu div.frame.service ul li a.menu12.active {background-position:-169px -720px !important;}
+div.sidemenu div.frame.service ul li a.menu13 {background-position:0px -800px;}
+div.sidemenu div.frame.service ul li a.menu13:hover {background-position:-169px -800px;}
+div.sidemenu div.frame.service ul li a.menu13.active {background-position:-169px -800px !important;}
+div.sidemenu div.frame.service ul li a.menu14 {background-position:0px -840px;}
+div.sidemenu div.frame.service ul li a.menu14:hover {background-position:-169px -840px;}
+div.sidemenu div.frame.service ul li a.menu14.active {background-position:-169px -840px !important;}
+div.sidemenu div.frame.service ul li a.menu15 {background-position:0px -880px;}
+div.sidemenu div.frame.service ul li a.menu15:hover {background-position:-169px -880px;}
+div.sidemenu div.frame.service ul li a.menu15.active {background-position:-169px -880px !important;}
+
+div.sidemenu div.frame.service ul li a.menu16 {background-position:0px -920px;}
+div.sidemenu div.frame.service ul li a.menu16:hover {background-position:-169px -920px;}
+div.sidemenu div.frame.service ul li a.menu16.active {background-position:-169px -920px !important;}
+div.sidemenu div.frame.service ul li a.menu17 {background-position:0px -1000px;}
+div.sidemenu div.frame.service ul li a.menu17:hover {background-position:-169px -1000px;}
+div.sidemenu div.frame.service ul li a.menu17.active {background-position:-169px -1000px !important;}
+div.sidemenu div.frame.service ul li a.menu18 {background-position:0px -1080px;}
+div.sidemenu div.frame.service ul li a.menu18:hover {background-position:-169px -1080px;}
+div.sidemenu div.frame.service ul li a.menu18.active {background-position:-169px -1080px !important;}
+
+
+
+div.sidemenu div.frame.process ul li a {
+	display:block;
+	text-indent:-9999px;
+	background-image:url(../image/common/sidemenu/process.png);
+	background-repeat:no-repeat;
+}
+div.sidemenu div.frame.process ul li a.line-solid {
+	margin-bottom:-1px;
+	border-bottom:solid 1px #CCCCCC;
+}
+div.sidemenu div.frame.process ul li a.line-doted {
+	margin-bottom:-1px;
+	border-bottom:dotted 1px #CCCCCC;
+}
+div.sidemenu div.frame.process ul li:last-child a {
+	border-bottom: none !important;
+}
+div.sidemenu div.frame.process ul li a.menu1 {background-position:0px 0px;}
+div.sidemenu div.frame.process ul li a.menu1:hover {background-position:-169px 0px;}
+div.sidemenu div.frame.process ul li a.menu1.active {background-position:-169px 0px !important;}
+div.sidemenu div.frame.process ul li a.menu2 {background-position:0px -80px;}
+div.sidemenu div.frame.process ul li a.menu2:hover {background-position:-169px -80px;}
+div.sidemenu div.frame.process ul li a.menu2.active {background-position:-169px -80px !important;}
+div.sidemenu div.frame.process ul li a.menu3 {background-position:0px -160px;}
+div.sidemenu div.frame.process ul li a.menu3:hover {background-position:-169px -160px;}
+div.sidemenu div.frame.process ul li a.menu3.active {background-position:-169px -160px !important;}
+div.sidemenu div.frame.process ul li a.menu4 {background-position:0px -240px;}
+div.sidemenu div.frame.process ul li a.menu4:hover {background-position:-169px -240px;}
+div.sidemenu div.frame.process ul li a.menu4.active {background-position:-169px -240px !important;}
+div.sidemenu div.frame.process ul li a.menu5 {background-position:0px -320px;}
+div.sidemenu div.frame.process ul li a.menu5:hover {background-position:-169px -320px;}
+div.sidemenu div.frame.process ul li a.menu5.active {background-position:-169px -320px !important;}
+
+
+
+
+
+div.sidemenu div.frame.seminar ul li a {
+	display:block;
+	text-indent:-9999px;
+	background-image:url(../image/common/sidemenu/seminar.png);
+	background-repeat:no-repeat;
+}
+div.sidemenu div.frame.seminar ul li a.line-solid {
+	margin-bottom:-1px;
+	border-bottom:solid 1px #CCCCCC;
+}
+div.sidemenu div.frame.seminar ul li a.line-doted {
+	margin-bottom:-1px;
+	border-bottom:dotted 1px #CCCCCC;
+}
+div.sidemenu div.frame.seminar ul li:last-child a {
+	border-bottom: none !important;
+}
+div.sidemenu div.frame.seminar ul li a.menu1 {background-position:0px 0px;}
+div.sidemenu div.frame.seminar ul li a.menu1:hover {background-position:-169px 0px;}
+div.sidemenu div.frame.seminar ul li a.menu1.active {background-position:-169px 0px !important;}
+
+
+
+
+
+div.sidemenu div.frame.marketing ul li a {
+	display:block;
+	text-indent:-9999px;
+	background-image:url(../image/common/sidemenu/marketing.png);
+	background-repeat:no-repeat;
+}
+div.sidemenu div.frame.marketing ul li a.line-solid {
+	margin-bottom:-1px;
+	border-bottom:solid 1px #CCCCCC;
+}
+div.sidemenu div.frame.marketing ul li a.line-doted {
+	margin-bottom:-1px;
+	border-bottom:dotted 1px #CCCCCC;
+}
+div.sidemenu div.frame.marketing ul li:last-child a {
+	border-bottom: none !important;
+}
+div.sidemenu div.frame.marketing ul li a.menu1 {background-position:0px 0px;}
+div.sidemenu div.frame.marketing ul li a.menu1:hover {background-position:-169px 0px;}
+div.sidemenu div.frame.marketing ul li a.menu1.active {background-position:-169px 0px !important;}
+
+
+
+
+
+div.sidemenu div.frame.other ul li a {
+	display:block;
+	text-indent:-9999px;
+	background-image:url(../image/common/sidemenu/other.png);
+	background-repeat:no-repeat;
+}
+div.sidemenu div.frame.other ul li a.line-solid {
+	margin-bottom:-1px;
+	border-bottom:solid 1px #CCCCCC;
+}
+div.sidemenu div.frame.other ul li a.line-doted {
+	margin-bottom:-1px;
+	border-bottom:dotted 1px #CCCCCC;
+}
+div.sidemenu div.frame.other ul li:last-child a {
+	border-bottom: none !important;
+}
+div.sidemenu div.frame.other ul li a.menu1 {background-position:0px 0px;}
+div.sidemenu div.frame.other ul li a.menu1:hover {background-position:-169px 0px;}
+div.sidemenu div.frame.other ul li a.menu1.active {background-position:-169px 0px !important;}
+div.sidemenu div.frame.other ul li a.menu2 {background-position:0px -80px;}
+div.sidemenu div.frame.other ul li a.menu2:hover {background-position:-169px -80px;}
+div.sidemenu div.frame.other ul li a.menu2.active {background-position:-169px -80px !important;}
+div.sidemenu div.frame.other ul li a.menu3 {background-position:0px -160px;}
+div.sidemenu div.frame.other ul li a.menu3:hover {background-position:-169px -160px;}
+div.sidemenu div.frame.other ul li a.menu3.active {background-position:-169px -160px !important;}
+div.sidemenu div.frame.other ul li a.menu4 {background-position:0px -240px;}
+div.sidemenu div.frame.other ul li a.menu4:hover {background-position:-169px -240px;}
+div.sidemenu div.frame.other ul li a.menu4.active {background-position:-169px -240px !important;}
+div.sidemenu div.frame.other ul li a.menu5 {background-position:0px -320px;}
+div.sidemenu div.frame.other ul li a.menu5:hover {background-position:-169px -320px;}
+div.sidemenu div.frame.other ul li a.menu5.active {background-position:-169px -320px !important;}
+
+
+
+
+

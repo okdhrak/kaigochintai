@@ -1,0 +1,12 @@
+@charset "Shift_JIS";
+/* ********************************************************************-
+Date:2012-04-14
+CSS Document:Reno*[SELECT] IE6用スタイルシート
+
+ - ******************************************************************** */
+
+/* iepngfix */
+img {
+	behavior: url("http://localhost/rinoberu/lib/iepngfix/iepngfix.htc");
+	/*behavior: url("http://www./lib/iepngfix/iepngfix.htc");*/
+}

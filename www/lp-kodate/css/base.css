@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* ********************************************************************-
+Date:2014-08-26
+CSS Document:kaigochintai.com 介護賃貸併用住宅LP_レイアウトスタイル
+
+ - ******************************************************************** */
+
+header {
+	background: #FFFFFF;
+	width: 100%;
+	box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+	position: relative;
+	z-index: 10;
+}
+header .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+header .content .logo {
+	position: absolute;
+	top: 21px;
+}
+header .content h1 {
+	position: absolute;
+	left: 156px;
+	top: 22px;
+	font-size: 0.65em;
+	line-height: 1.4em;
+}
+header .content .contact {
+	float:right;
+}
+header .content .tel {
+	float:right;
+	margin: 20px 10px 0 0;
+}
+
+/* #headline
+ */
+#headline {
+	background: url(../image/headline/bg.png) center no-repeat;
+	height: 855px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#headline .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+#headline .content h2 {
+	/*お知らせなし
+	padding-top: 50px;*/
+	padding-top: 60px;
+}
+#headline .content .mv {
+	background: url(../image/headline/mv.png) no-repeat;
+	position: absolute;
+	width: 606px;
+	height: 469px;
+	left: 470px;
+	top: 0px;
+}
+#headline .content .mv .btn {
+	position: absolute;
+	left: 51px;
+	top: 245px;
+}
+#headline .content .contact {
+	position: absolute;
+	left: 527px;
+	top: 480px;
+	width: 452px;
+	height: 93px;
+	background: url(../image/headline/contact_bg.png) no-repeat;
+}
+#headline .content .contact .btn {
+	position: absolute;
+	left: 24px;
+	top: 68px;
+}
+
+/* .btn-link
+ */
+section.btn-link {
+	margin: -56px auto 30px auto;
+	position: relative;
+	z-index: 10;
+	width: 768px;
+}
+section.btn-link ul li {
+	float: left;
+}
+
+/* #about
+ */
+#about {
+	background: #EFEFEF;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 50px;
+}
+#about h2 {
+	text-align: center;
+	background: url(../image/common/title_bg.png) center no-repeat;
+	height: 107px;
+	margin-bottom: 50px;
+}
+#about h2 img {
+	padding-top: 25px !important;
+}
+#about .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+#about .content .column {
+	background: #FFFFFF;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	position: relative;
+}
+#about .content .column h3 {
+	text-align: center;
+	margin-bottom:30px;
+}
+#about .content .column h3 img {
+	margin-top: -25px;
+}
+#about .content .column .imgr {
+	float: right;
+	margin: 0 20px 20px 20px;
+}
+#about .content .column div.text p {
+	margin-left: 20px;
+	font-size: 1.06em;
+	line-height: 1.7em;
+}
+#about .content .column div.text p span {
+	color: #CA005A;
+	font-size: inherit;
+	font-weight: bold;
+}
+#about .content .column div.text p sup {
+	font-size: 0.7em;
+}
+#about .content .column em {
+	margin-left: 20px;
+	font-style: normal;
+	font-size: 0.75em;
+	display: block;
+	line-height: 1.4em;
+}
+#about .content .column .imgl {
+	float: left;
+	margin: 0 30px 20px 20px;
+}
+#about .content .column table.compare {
+	margin: 10px auto 0 auto;
+	width: 940px;
+	border: solid 2px #00AAE3;
+	border-collapse: collapse;
+	background: #FFFFFF;
+}
+#about .content .column table.compare caption {
+	text-align: right;
+	margin-bottom: 5px;
+}
+#about .content .column table.compare tr th {
+	border: solid 2px #00AAE3;
+	padding: 10px 0;
+}
+#about .content .column table.compare tr td {
+	border: solid 2px #00AAE3;
+	padding: 10px 0 10px 15px;
+	font-size: 0.93em;
+	line-height: 1.4em;
+}
+#about .content .column table.compare tr td span.merit,
+caption span.merit  {
+	color: #CA005A;
+	font-weight: bold;
+}
+#about .content .column table.compare tr td span.demerit,
+caption span.demerit {
+	color: #2D35D7;
+	font-weight: bold;
+}
+
+/* #simulation
+ */
+#simulation {
+	background: #EFEFEF;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 50px;
+}
+#simulation h2 {
+	text-align: center;
+	background: url(../image/common/title_bg.png) center no-repeat;
+	height: 107px;
+	margin-bottom: 50px;
+}
+#simulation h2 img {
+	padding-top: 25px !important;
+}
+#simulation .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+#simulation .content .column {
+	background: #FFFFFF;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	position: relative;
+}
+#simulation .content .column h3 {
+	text-align: center;
+	margin-bottom:30px;
+}
+#simulation .content .column h3 img {
+	margin-top: -25px;
+}
+#simulation .content .column .imgr {
+	float: right;
+	margin: 0 20px 20px 30px;
+}
+#simulation .content .column .imgc {
+	text-align: center;
+}
+#simulation .content .column div.text p {
+	margin-left: 20px;
+	font-size: 1.06em;
+	line-height: 1.7em;
+}
+#simulation .content .column div.text p span {
+	color: #CA005A;
+	font-size: inherit;
+	font-weight: bold;
+	
+}
+
+/* #merit
+ */
+#merit {
+	background: #EFEFEF;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 50px;
+}
+#merit h2 {
+	text-align: center;
+	background: url(../image/common/title_bg.png) center no-repeat;
+	height: 107px;
+	margin-bottom: 50px;
+}
+#merit h2 img {
+	padding-top: 25px !important;
+}
+#merit .content {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+#merit .content .column {
+	background: #FFFFFF;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	position: relative;
+}
+#merit .content .column h3 {
+	text-align: center;
+	margin-bottom:30px;
+}
+#merit .content .column h3 img {
+	margin-top: -25px;
+}
+#merit .content .column .imgc {
+	text-align: center;
+}
+#merit .content .column .imgl {
+	float: left;
+	margin: 0 30px 0 20px;
+}
+#merit .content .column div.text p {
+	margin-left: 20px;
+	font-size: 1.06em;
+	line-height: 1.7em;
+}
+#merit .content .small {
+	padding-top: 20px;
+}
+
+
+/* footer
+ */
+footer {
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 980px;
+}
+footer p.company-info {
+	margin-top: 10px;
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+footer ul.link {
+	margin-top: 30px;
+	list-style: none;
+}
+footer ul.link li {
+	float: left;
+}
+footer ul.link li a {
+	float: left;
+	color: #FFA500;
+}
+footer p.copy {
+	padding: 30px 0;
+	font-size: 0.8em;
+}

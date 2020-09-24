@@ -1,0 +1,241 @@
+@charset "Shift_JIS";
+/* ********************************************************************-
+Date:2012-10-25
+CSS Document:kaigochintai.com LPページレイアウトスタイルシート
+
+ - ******************************************************************** */
+
+/* header */
+#wrapper {
+	width:860px;
+	margin:30px auto 0 auto;
+}
+
+#wrapper header div.logo {
+	float:left;
+}
+#wrapper header div.logo h1 {
+	float:left;
+}
+#wrapper header div.logo h2 {
+	float:left;
+	margin:17px 0 0 10px;
+}
+#wrapper header p.contact {
+	float:right;
+}
+
+
+#wrapper > div.main {
+	margin-top:30px;
+	position:relative;
+	height:270px;
+	background: url(../image/main/main_bg.png);
+	background-repeat:no-repeat;
+}
+#wrapper > div.main p.text1 {
+	position:absolute;
+	left:34px;
+	top: 48px;
+}
+#wrapper > div.main p.text2 {
+	position:absolute;
+	left:33px;
+	top: 88px;
+}
+#wrapper > div.main p.text3 {
+	position:absolute;
+	left:33px;
+	top:175px;
+}
+
+
+#wrapper div.headline {
+	margin-top:30px;
+	padding:30px;
+	background:#1090BE;
+	-moz-border-radius:.2em;
+	-webkit-border-radius:.2em;
+	border-radius:.2em;
+	background-repeat:no-repeat;
+}
+#wrapper div.headline ul {
+	list-style:none;
+}
+#wrapper div.headline ul li {
+	float:left;
+	margin-left:10px;
+}
+#wrapper div.headline ul li:first-child {
+	margin-left:0;
+}
+#wrapper div.headline p.st {
+	margin-top:20px;
+	padding:20px 0;
+	background:#FFFFFF;
+	color:#1090BE;
+	font-size:16px;
+	font-weight:bold;
+	line-height:26px;
+	text-align:center;
+	-moz-border-radius:.2em;
+	-webkit-border-radius:.2em;
+	border-radius:.2em;
+}
+#wrapper div.headline p.text {
+	margin-top:20px;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+	line-height:20px;
+}
+
+
+#wrapper div.contents {
+	margin-top:30px;
+}
+
+#wrapper div.contents div.totop {
+	text-align:right;
+	padding:5px;
+}
+
+#wrapper div.contents div.column {
+	padding:30px;
+	margin-top:30px;
+	border:solid 3px #1090BE;
+	background:#FFFFFF;
+	-moz-border-radius:.3em;
+	-webkit-border-radius:.3em;
+	border-radius:.3em;
+}
+#wrapper div.contents div.column:first-child {
+	margin-top:0;
+}
+#wrapper div.contents div.column h3 {
+	text-align:center;
+}
+#wrapper div.contents div.column div.s-column {
+	margin-top:20px;
+	padding:30px;
+	border:solid 1px #1090BE;
+	background:#FFFFFF;
+	-moz-border-radius:.2em;
+	-webkit-border-radius:.2em;
+	border-radius:.2em;
+}
+#wrapper div.contents div.column div.s-column div.feature {
+	margin-top:30px;
+	padding-top:30px;
+	border-top:dotted 1px #CCCCCC;
+}
+#wrapper div.contents div.column div.s-column div.feature:first-child {
+	margin-top:0;
+	padding-top:0;
+	border-top:none;
+}
+#wrapper div.contents div.column div.s-column div.feature h4 img {
+	background:#FFFF00;
+}
+#wrapper div.contents div.column div.s-column div.feature p {
+	margin-top:20px;
+}
+#wrapper div.contents div.column p.conclusion {
+	text-align:center;
+	margin-top:30px;
+}
+
+
+
+
+#wrapper div.contents div.sec2 {
+}
+#wrapper div.contents div.sec2 div.s-column ul {
+	list-style:none;
+	margin-top:20px;
+}
+#wrapper div.contents div.sec2 div.s-column ul li {
+	float:left;
+}
+#wrapper div.contents div.sec2 div.s-column p.st3 {
+	text-align:center;
+	margin-top:30px;
+	padding-bottom:30px;
+	border-bottom:dotted 1px #CCCCCC;
+}
+#wrapper div.contents div.sec2 div.s-column div.graph {
+	margin-top:30px;
+}
+#wrapper div.contents div.sec2 div.s-column div.graph div.col {
+	background:#F4F7F1;
+	margin-top:10px;
+	padding:30px 0;
+}
+#wrapper div.contents div.sec2 div.s-column div.graph div.col p {
+	text-align:center;
+}
+
+
+
+#wrapper div.contents div.column div.contact {
+	width:600px;
+	margin:30px auto 0 auto;
+	padding:20px 30px;
+	border:solid 1px #000000;
+	-moz-border-radius:.2em;-webkit-border-radius:.2em; border-radius:.2em;
+}
+#wrapper div.contents div.column div.contact div.col div.form {
+	float:left;
+}
+#wrapper div.contents div.column div.contact div.col div.form p {
+	margin-top:10px;
+}
+#wrapper div.contents div.column div.contact div.col div.tel {
+	float:left;
+	margin-left:40px;
+}
+#wrapper div.contents div.column div.contact div.col div.tel p {
+	margin-top:10px;
+}
+#wrapper div.contents div.column div.contact p.text {
+	margin-top:15px;
+	text-align:center;
+	clear:left;
+	border-top:dotted 1px #CCCCCC;
+	padding-top:15px;
+}
+
+
+
+
+
+#wrapper footer {
+	width:850px;
+	margin:60px auto 0 auto;
+}
+#wrapper footer > div.main {
+	background:#F4F7F1;
+	padding:30px 0;
+}
+#wrapper footer > div.main p.text1 {
+	text-align:center;
+}
+#wrapper footer > div.main p.text2 {
+	text-align:center;
+	margin-top:30px;
+}
+#wrapper footer > div.main div.company {
+	margin:30px 35px 0 35px;
+	padding-top:30px;
+	border-top:dotted 1px #CCCCCC;
+}
+
+
+#wrapper footer > p.copy {
+	text-align:center;
+	padding:15px 0;
+}
+
+
+
+

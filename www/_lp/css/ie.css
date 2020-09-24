@@ -1,0 +1,11 @@
+@charset "Shift_JIS";
+/* ********************************************************************-
+Date:2011-11-18
+CSS Document:kaigochintai.com LPページIE用スタイルシート
+
+ - ******************************************************************** */
+
+/* font family */
+body {
+	font-family: MS Gothic, MS PGothic, Arial;
+}
